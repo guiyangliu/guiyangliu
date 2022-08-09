@@ -1,0 +1,36 @@
+.my {
+  width: 100%;
+  height: 100%;
+}
+.my .bg {
+  width: 100%;
+}
+.my .bgimg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.my .login {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 130px;
+}
+.my .login a {
+  color: #fff;
+  font-size: 16px;
+}
+.my .iszc {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+}
